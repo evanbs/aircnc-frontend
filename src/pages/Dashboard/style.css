@@ -1,0 +1,30 @@
+.dashboard {
+  li {
+    display: flex;
+    flex-direction: column;
+    lost-column: 1/2;
+    margin-bottom: 20px;
+
+    header {
+      background-size: cover;
+      border-radius: 4px;
+      height: 120px;
+      width: 100%;
+    }
+
+    label {
+      text-transform: uppercase;
+    }
+
+    span {
+      color: #999;
+      font-size: 15px;
+    }
+
+    strong {
+      color: #444;
+      font-size: 24px;
+      margin-top: 10px;
+    }
+  }
+}

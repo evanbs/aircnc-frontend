@@ -1,0 +1,8 @@
+{
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "selector-max-class": 2,
+    "order/order": ["custom-properties", "declarations"],
+    "order/properties-alphabetical-order": true
+  }
+}

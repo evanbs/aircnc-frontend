@@ -1,0 +1,46 @@
+.app {
+  .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px auto 0;
+    max-width: 100%;
+    width: 450px;
+  }
+
+  .content {
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 50px;
+    padding: 30px;
+    width: 100%;
+
+    p {
+      font-size: 22px;
+      line-height: 30px;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      color: #444;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    input {
+      border: 1px solid #ddd;
+      border-radius: 2px;
+      font-size: 16px;
+      height: 45px;
+      margin-bottom: 20px;
+      padding: 0 15px;
+    }
+  }
+}

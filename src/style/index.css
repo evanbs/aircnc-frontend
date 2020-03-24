@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body,
+button,
+input {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: url(../assets/background.jpg) no-repeat #000;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased !important;
+}
+.dashboard li {
+    display: flex;
+    flex-direction: column;
+    width: calc(99.9% * 1/2 - (30px - 30px * 1/2));
+    margin-bottom: 20px;
+  }
+.dashboard li:nth-child(1n) {
+    float: left;
+    margin-right: 30px;
+    clear: none;
+  }
+.dashboard li:last-child {
+    margin-right: 0;
+  }
+.dashboard li:nth-child(2n) {
+    margin-right: 0;
+    float: right;
+  }
+.dashboard li:nth-child(2n + 1) {
+    clear: both;
+  }
+.dashboard li header {
+      background-size: cover;
+      border-radius: 4px;
+      height: 120px;
+      width: 100%;
+    }
+.dashboard li label {
+      text-transform: uppercase;
+    }
+.dashboard li span {
+      color: #999;
+      font-size: 15px;
+    }
+.dashboard li strong {
+      color: #444;
+      font-size: 24px;
+      margin-top: 10px;
+    }
+.new .thumbnail {
+    align-items: center;
+    background-size: cover;
+    border: 1px dashed #ddd;
+    cursor: pointer;
+    display: flex;
+    height: 160px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+.new .thumbnail input {
+      display: none;
+    }
+.new .thumbnail--active {
+      border: 0;
+    }
+.new .thumbnail--active img {
+        display: none;
+      }
+.new span {
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+  }
+.app .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px auto 0;
+    max-width: 100%;
+    width: 450px;
+  }
+.app .content {
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 50px;
+    padding: 30px;
+    width: 100%;
+  }
+.app .content p {
+      font-size: 22px;
+      line-height: 30px;
+      margin-bottom: 30px;
+    }
+.app .content form {
+      display: flex;
+      flex-direction: column;
+    }
+.app .content label {
+      color: #444;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+.app .content input {
+      border: 1px solid #ddd;
+      border-radius: 2px;
+      font-size: 16px;
+      height: 45px;
+      margin-bottom: 20px;
+      padding: 0 15px;
+    }
+.button {
+  background-color: #bbb;
+  border: 0;
+  border-radius: 2px;
+  color: #666666;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 42px;
+  padding: 0 20px;
+  width: 100%;
+}
+.button--feature {
+    background-color: #f05a5b;
+    color: #fff
+  }
+.button--feature:hover {
+      background-color: #e14f50;
+    }

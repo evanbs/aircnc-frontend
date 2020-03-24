@@ -1,0 +1,30 @@
+.new {
+  .thumbnail {
+    align-items: center;
+    background-size: cover;
+    border: 1px dashed #ddd;
+    cursor: pointer;
+    display: flex;
+    height: 160px;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    input {
+      display: none;
+    }
+
+    &--active {
+      border: 0;
+
+      img {
+        display: none;
+      }
+    }
+  }
+
+  span {
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+  }
+}

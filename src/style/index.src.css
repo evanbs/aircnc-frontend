@@ -1,0 +1,5 @@
+@import './general.css';
+@import '../pages/Dashboard/style.css';
+@import '../pages/New/style.css';
+@import '../components/App/style.css';
+@import '../components/Button/style.css';
